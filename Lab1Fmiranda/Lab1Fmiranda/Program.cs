@@ -10,6 +10,7 @@ namespace Lab1Fmiranda
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
