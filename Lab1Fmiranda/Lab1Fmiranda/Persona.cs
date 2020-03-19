@@ -6,21 +6,24 @@ using System.Threading.Tasks;
 
 namespace Lab1Fmiranda
 {
-    class Persona
+    public class Persona
     {
-        public int Age;
-        public string Name;
-        public string Lastname;
-        
-       
+        private int Age = 55;
+        private string name = "Albert";
+        private string Lastname = "Einstein";
 
-
+        public string Name { get => name; set => name = value; }
+        public string Lastname1 { get => Lastname; set => Lastname = value; }
 
         public void Throw()
         {
             
         
         }
+        //public string Getname()
+        //{
+        //    return name;
+        //}
 
     }
 }

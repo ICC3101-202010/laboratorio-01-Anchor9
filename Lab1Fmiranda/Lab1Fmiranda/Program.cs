@@ -10,7 +10,10 @@ namespace Lab1Fmiranda
     {
         static void Main(string[] args)
         {
+            Persona p1 = new Persona();
 
+            Console.WriteLine(p1.Name);
+            Console.WriteLine(p1.Lastname1);
         }
     }
 }
