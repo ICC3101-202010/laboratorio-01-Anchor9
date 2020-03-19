@@ -12,17 +12,20 @@ namespace Lab1Fmiranda
         {
             //creando con constructor que recibe parametros
 
-            Person p1 = new Person(33,"Juan","Munoz");
+            Person p1 = new Person(33,"Bob","Kunga");
             //Console.WriteLine(p1);
             Console.WriteLine(p1.Name);
             Console.WriteLine(p1.Lastname1);
 
-            // creando objeto con constructor vacio
+            // creando objeto con constructor vacio me tira los atributos por defecto que cree
+
 
             Person p2 = new Person();
             Console.WriteLine(p2.Name);
             Console.WriteLine(p2.Lastname1);
 
+
+            p1.Throw();
         }
     }
 }
