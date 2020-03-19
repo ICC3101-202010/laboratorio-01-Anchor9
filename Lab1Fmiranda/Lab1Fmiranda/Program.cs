@@ -10,10 +10,19 @@ namespace Lab1Fmiranda
     {
         static void Main(string[] args)
         {
-            Persona p1 = new Persona();
+            //creando con constructor que recibe parametros
 
+            Person p1 = new Person(33,"Juan","Munoz");
+            //Console.WriteLine(p1);
             Console.WriteLine(p1.Name);
             Console.WriteLine(p1.Lastname1);
+
+            // creando objeto con constructor vacio
+
+            Person p2 = new Person();
+            Console.WriteLine(p2.Name);
+            Console.WriteLine(p2.Lastname1);
+
         }
     }
 }

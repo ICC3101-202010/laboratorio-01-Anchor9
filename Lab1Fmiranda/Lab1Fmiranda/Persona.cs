@@ -6,14 +6,34 @@ using System.Threading.Tasks;
 
 namespace Lab1Fmiranda
 {
-    public class Persona
+    public class Person
     {
-        private int Age = 55;
+        private int age = 55;
         private string name = "Albert";
-        private string Lastname = "Einstein";
+        private string lastname = "Einstein";
+
+
+        //Constructor
+
+        public Person(int Age, string Name, string Lastname)
+
+        {
+            // CONSTRUCTOR --> (atributo = parametro)
+            age = Age;
+            name = Name;
+            lastname = Lastname;
+
+
+        
+        }
+
+        public Person()
+        {
+
+        }
 
         public string Name { get => name; set => name = value; }
-        public string Lastname1 { get => Lastname; set => Lastname = value; }
+        public string Lastname1 { get => lastname; set => lastname = value; }
 
         public void Throw()
         {
